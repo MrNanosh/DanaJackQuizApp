@@ -1,0 +1,101 @@
+*{
+  box-sizing:border-box;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  margin:0;
+  background:cover;
+  background-image:url("http://www.seekgif.com/uploads/beautiful-black-wood-hd-wallpaper-29.jpeg");
+  background-color: #262626;
+}
+
+header {
+  margin-top: 25px;
+  height:80px;
+  color: white;
+  margin-bottom: 55px;
+}
+
+input {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+header h1 {
+  line-height: 1;
+  top:24px;
+  text-align: center;
+}
+
+
+ .next, .submit_answer, .start, .restart{
+  margin-top:10px;
+  height: auto;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color:black;
+  background: orange;
+  border: 0;
+  cursor: pointer;
+  margin-bottom: 0;
+  border-radius:3px;
+  padding: 10px 20px;
+}
+
+fieldset {
+  width:80%;
+  padding: 40px;
+  margin:0 auto;
+  background:rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+legend {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+/*h1{
+
+}
+form{
+
+}
+div{
+
+}
+section{
+
+}
+fieldset{
+
+}
+legend{
+
+}
+header{
+
+}
+main{
+
+}
+body{
+
+}
+button{
+
+}
+input{
+
+}
+legend{
+
+}
+*/
