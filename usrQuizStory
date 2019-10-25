@@ -1,0 +1,37 @@
+user can start quiz
+user can answer quiz question (one at time)
+user can go to next question
+user can NOT skip question
+user can see current question
+user can see feedback
+user can see overall score at end
+user can start a new quiz at the end of the quiz
+user can see total questions.
+user can see current score during quiz
+user can see which number question they are currently viewing
+
+
+quiz has order
+quiz has a store of questions
+quiz has a store of answers
+quiz has a template for asking questions
+quiz has score
+quiz has an order of questions
+quiz shows question
+quiz responds when correct
+quiz responds when incorrect
+quiz has a cover/starting page
+quiz has a results page
+quiz has a title
+quiz stops from skipping
+quiz has button for next question after answer
+quiz can be navigatted by keyboard
+quiz can alert when submitting blank
+
+
+
+
+
+
+start page waits for user to start
+
