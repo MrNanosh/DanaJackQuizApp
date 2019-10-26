@@ -24,8 +24,7 @@ const STORE ={
     },
     {
       question: 'What Question Was on This Quiz?',
-      options: ['How often will you get this right?', 'Who gives the best quizzes', 'When was the first multiple choice quiz'
-        'What was the answer to Question 2?'],
+      options: ['How often will you get this right?', 'Who gives the best quizzes', 'When was the first multiple choice quiz','What was the answer to Question 2?'],
       correct: 1 //array index
     }
 ],
