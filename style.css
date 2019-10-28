@@ -24,6 +24,8 @@ input {
   padding-left: 20px;
   padding-right: 20px;
   margin: 0 auto;
+  background:rgba(255, 255, 255, 0.8);
+
 }
 
 header h1 {
@@ -60,6 +62,16 @@ legend {
   font-weight: 700;
   font-size: 18px;
 }
+
+.strikethru{
+  text-decoration: line-through;
+  color: red;
+}
+
+.correct{
+  color: green;
+}
+
 
 
 /*h1{
