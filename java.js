@@ -73,10 +73,10 @@ function makeQuestion(){
     let q = STORE.quiz[STORE.currentQuestion];
     $('main').html(`
   <form class='quiz'>
-    <fieldset>
-      <p class='question'>${q.question}</p>
+    <fieldset aria-labelledby='ask'>
+      <p class='question' id='ask'>${q.question}</p>
       ${makeAnswers(q)}
-      <span class = submit-answer><input type='submit' class='submit-answer'></input></span>
+      <span class = 'submit-container'><input type='submit' class='submit-answer'></input></span>
    </fieldset>
    </form>
   `);
@@ -89,8 +89,9 @@ function makeAnswers(question){
   let markup = question.options.map(
     (option,index)=>{
       return`<p class='option'>
-                <input type ='radio' id='option${index+1}' value='${index}' name='answer' required>
-                <label for='option${index+1}'>${option}</label>
+                <label for='option${index+1}'>${option}</label>          
+                <input type ='radio' id='option${index+1}'
+                value='${index}' name='answer'  required>
               </p>`;
     }
   ).join('');
@@ -165,7 +166,7 @@ function toggleGrading(grade){
  
 function responseFeedback(grade){
   //need a button to remove double event handler problem
-  $('span.submit-answer')
+  $('span.submit-container')
     .html(`<input type='button'
            class='next'
            value='Next Question'>
