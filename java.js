@@ -74,7 +74,7 @@ function makeQuestion(){
     $('main').html(`
   <form class='quiz'>
     <fieldset aria-labelledby='ask'>
-      <p class='question' id='ask'>${q.question}</p>
+      <p tabindex='0' class='question' id='ask'>${q.question}</p>
       ${makeAnswers(q)}
       <span class = 'submit-container'><input type='submit' class='submit-answer'></input></span>
    </fieldset>
