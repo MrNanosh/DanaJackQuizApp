@@ -195,7 +195,7 @@ function renderEndPage(){
   $('main').html(`
   <form class='end'>
     <fieldset>
-    <p>Would you like to try again?</p>    
+    <p>This is the last Question: Would you like to try again?</p>    
     <input type='submit' class='start-quiz' value="Restart Quiz"></input>
     </fieldset>
   </form>

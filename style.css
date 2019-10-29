@@ -52,7 +52,7 @@ header span {
   display: block;
 }
 
- .next, .submit-answer, .start-quiz, .restart{
+ .next, .submit-answer, .start-quiz, .restart, .quiz{
   margin-top:10px;
   height: auto;
   font-size: 18px;
@@ -101,11 +101,21 @@ fieldset {
   }
 }
 
+@media (max-width:320px){
+  fieldset {
+    width: 95%;
+  }
+  p, input.submit-answer {
+    height: 95%;
+    width: 95%;
+  }
+  .ticker span {
+    display: block;
+    width: 300px;
+  }
 
-
-
-
-
-
-
+  .ticker {
+    height: 100px;
+    flex-direction: row;
+  }
 }
